@@ -17,5 +17,5 @@ RUN pip install --no-cache-dir websocket-client
 RUN mkdir -p /generated
 
 # Make wrapper.py the entrypoint, passing script.py as argument
-ENTRYPOINT ["python", "-u", "wrapper.py"]
-CMD ["script.py"]
+ENTRYPOINT ["python", "wrapper.py", "script.py"]
+

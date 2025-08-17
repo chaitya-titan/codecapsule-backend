@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
-
-const { getAllScripts } = require("../services");
+import { getAllScripts } from "../services/scripts.service";
 
 const getScripts = async (req: Request, res: Response) => {
   const scripts = await getAllScripts();
