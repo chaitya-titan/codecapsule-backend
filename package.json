@@ -10,8 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/archiver": "^6.0.3",
     "@types/express": "^5.0.3",
     "@types/multer": "^2.0.0",
+    "archiver": "^7.0.1",
     "cors": "^2.8.5",
     "cross-spawn": "^7.0.6",
     "express": "^5.1.0",

@@ -1,6 +1,6 @@
 import http from "http";
 
-const { initWebSocket } = require("../services");
+import { initWebSocket } from "../services/ws.service";
 
 let wss: ReturnType<typeof initWebSocket>;
 
